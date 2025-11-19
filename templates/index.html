@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+            Aplicaciones de la
+            Inteligencia Artificial
+            Examen #2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Detector de Phishing</h1>
+        <p>Porfavor introduzca el cuerpo de un correo electronico para analizarlo</p>
+        <form id="email-form">
+            <textarea id="email_body" name="email_body" rows="6" placeholder="Introduzca el cuerpo del correo aqui..."></textarea><br><br>
+            <button type="submit">Verificar correo</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
