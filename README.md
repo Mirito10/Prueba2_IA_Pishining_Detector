@@ -5,6 +5,7 @@
 
 ## 👥 Integrantes del Proyecto
 - Mathias José Calderón Vásquez
+- Javier Viquez Barrientos
 
 ---
 
